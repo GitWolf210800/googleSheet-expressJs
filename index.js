@@ -62,10 +62,11 @@ app.get('/mahasiswa', async (req, res) => {
     } else {
       res.status(404).send('No data found');
     }
-  /*} catch (err) {
+  } catch (err) {
     console.error('Error reading data:', err);
     res.status(500).send('Error reading data');
-  }*/
+  }
+  // hago un comentario
 });
 
 // UPDATE
