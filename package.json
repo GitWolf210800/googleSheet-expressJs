@@ -1,6 +1,7 @@
 {
   "name": "crud-spreadsheet",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "Una API REST en Express.js que interactúa con Google Sheets como base de datos.",
   "main": "index.js",
   "scripts": {
@@ -10,12 +11,27 @@
   "keywords": ["express", "google-sheets", "crud", "api", "nodejs"],
   "author": "Ezel Quintana",
   "license": "MIT",
+=======
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+>>>>>>> 63cf3336f42a773742189e13d6c5b4378f15639a
   "dependencies": {
     "body-parser": "^2.2.0",
     "express": "^5.1.0",
     "googleapis": "^150.0.1"
+<<<<<<< HEAD
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
+=======
+>>>>>>> 63cf3336f42a773742189e13d6c5b4378f15639a
   }
 }

@@ -66,6 +66,10 @@ app.get('/mahasiswa', async (req, res) => {
     console.error('Error reading data:', err);
     res.status(500).send('Error reading data');
   }
+<<<<<<< HEAD
+=======
+  // hago un comentario
+>>>>>>> 63cf3336f42a773742189e13d6c5b4378f15639a
 });
 
 // UPDATE

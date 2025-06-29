@@ -3,6 +3,10 @@ node_modules/
 
 # Entornos
 .env
+<<<<<<< HEAD
+=======
+service-account.json
+>>>>>>> 63cf3336f42a773742189e13d6c5b4378f15639a
 
 # Logs
 npm-debug.log*
